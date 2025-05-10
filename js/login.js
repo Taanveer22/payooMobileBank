@@ -1,4 +1,4 @@
-console.log("connected");
+console.log("login page connected");
 
 document
   .getElementById("btn-login")
