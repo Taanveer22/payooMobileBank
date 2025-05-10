@@ -16,6 +16,7 @@ document
     // validate user input
     if (mobNumber === "01761248294" && pinNumber === "1234") {
       console.log("congratulations! you are logged in");
+      window.location.href = "../home.html";
     } else {
       alert("wrong input...");
     }
