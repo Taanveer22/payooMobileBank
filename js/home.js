@@ -10,12 +10,12 @@ document
     event.preventDefault();
 
     // step-2: get the amount of money to add
-    const amountInput = document.getElementById("amount-input").value;
+    const amountInput = document.getElementById("add-money-amount-input").value;
     console.log(amountInput);
     console.log(typeof amountInput);
 
     // get the pin number user provided(subStep)
-    const pinInput = document.getElementById("pin-input").value;
+    const pinInput = document.getElementById("add-money-pin-input").value;
     console.log(pinInput);
     console.log(typeof pinInput);
 
